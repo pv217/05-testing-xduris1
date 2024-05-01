@@ -38,6 +38,7 @@ class PassengerRepositoryTest {
     @TestReactiveTransaction
     void shouldFindNotificationsForPassenger(UniAsserter asserter) {
         // TODO implement this test
+        System.out.println("This should fail");
         // create a passenger and a notification, add the notification to the passenger and test if the notification is found
     }
 
